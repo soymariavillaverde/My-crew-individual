@@ -1,0 +1,58 @@
+
+
+#avatares-equipo {
+    margin:5%;
+    display:flex;
+    justify-content: space-around;
+}
+
+.usuario{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fondo-nombre{
+    background-color: #90AACB;
+    border-radius: 7px;
+    height: 10%;
+    margin-top: 15%;
+}
+
+.estilo-letra{
+    font-size: 1em;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.nombre-usuario{
+    font-size: 20px;
+    color: white;
+    margin: 0;
+}
+
+#herramientas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #A2D2FF;
+    padding-bottom: 3%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.logos-herramientas{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-logos{
+    width: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
